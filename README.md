@@ -3,6 +3,7 @@
 ## ENV variables
 
 API Key - get from Airtable Account page
+
 BASE ID - choose the correct base from the list at https://airtable.com/api
 
 ### Step 1
@@ -29,7 +30,7 @@ Add the following fields to the base (case sensitive)
 Use the following command to run the script
 `npm start`
 
-**IMPORTANT**
+**IMPORTANT** ->
 Running the script more then once will result in the duplicated data being added to Airtable. Either create a new base and update the ID or clear the base first before running it again.
 
 ### Optionally
